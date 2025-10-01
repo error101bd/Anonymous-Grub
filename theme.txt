@@ -1,0 +1,69 @@
+# Global properties
+title-text: ""
+#titel label
++ label {
+  left = 0
+  top = 5%
+  width = 100%
+  align = "center"
+  text = "̷>>> Anonymous <<<"
+  color = "#ff0000"
+  font = "DISCOVERY Regular 22"
+}
+
+desktop-image: "background.png"
+desktop-color: "#000000"
+terminal-font: "Hack Bold 18"
+terminal-box: "terminal_box_*.png"
+terminal-left: "0"
+terminal-top: "0"
+terminal-width: "100%"
+terminal-height: "100%"
+terminal-border: "10"
+
+
+
+# Boot menu
++ boot_menu {
+  left = 35%
+  top = 55%
+  width = 100%
+  height = 15%
+  item_font = "Cyber Blast Regular 25"
+  item_color = "#00f7fa"
+  selected_item_font = "Cyber Blast Regular 30"
+  selected_item_color = "#ff0000"
+  icon_width = 32
+  icon_height = 32
+  item_height = 40
+  item_spacing = 10
+  item_padding = 4
+  item_icon_space = 8
+  item_pixmap_style = "item_*.png"
+  selected_item_pixmap_style = "selected_item_*.png"
+}
+
+# Countdown message
++ label {
+  left = 0
+  top = 80%
+  width = 100%
+  align = "center"
+  id = "__timeout__"
+  text = "BOOTING IN %d SECONDS⏳"
+  color = "#ff0606"
+  font = "Cyber Blast Regular 30"
+  
+}
+
+# Navigation keys hint 
++ label {
+  left = 0
+  top = 90%
+  width = 100%
+  align = "center"
+  text = "USE ARROW KEYS TO SELECT OS, ENTER TO CONTINUE "
+  color = "#0e58ff"
+  font = "Alphabet Fantasie Regular 22"
+}
+
